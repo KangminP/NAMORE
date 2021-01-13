@@ -1,0 +1,14 @@
+@import "https://fonts.googleapis.com/css2?family=Song+Myung&display=swap";
+
+.top-title {
+  font-family: "Song Myung", serif;
+  font-size: 4vmin;
+  margin: 1rem 0 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingBox {
+  height: 20rem;
+}

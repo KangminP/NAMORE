@@ -1,0 +1,81 @@
+.signup-background {
+  background-image: url("../assets/img/food2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.form-box {
+  height: 600px;
+}
+
+.page-link:hover {
+  cursor: default !important;
+}
+
+.page-link:hover {
+  background-color: #f8f9fa !important;
+}
+
+.pagination .page-item.active > .page-link,
+.pagination .page-item.active > .page-link:focus,
+.pagination .page-item.active > .page-link:hover {
+  background-color: #c6c8ca !important;
+  border-color: #343a40 !important;
+}
+
+.pagination .page-item .page-link {
+  padding: 1.2 rem !important;
+  width: 17vmax !important;
+  height: 4vmax !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-pagination-div {
+  height: 2.5rem !important;
+}
+
+.signupform-footer {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  height: 3rem;
+}
+
+.signup-form-title {
+  font-family: "Song Myung", "serif";
+  font-size: 2.5rem;
+}
+
+.signup-form-pagination {
+  font-family: "Song Myung", "serif" !important;
+  font-size: 3vmin !important;
+}
+
+.signup-form-label {
+  font-family: "Nucleo Outline", "serif";
+  font-size: 1rem;
+}
+
+.signup-form-btn {
+  font-family: "Nucleo Outline", "serif";
+}
+
+.signup-form-btn-disabled {
+  font-family: "Nucleo Outline", "serif";
+}
+
+/* .signup-form-btn-disabled:hover,
+.signup-form-btn-disabled:focus {
+  cursor: default;
+  background-color: #f8f9fa !important;
+  color: grey !important;
+} */
+
+.form-control {
+  background-color: white !important;
+}
+
+.reqField {
+  font-weight: bold;
+}

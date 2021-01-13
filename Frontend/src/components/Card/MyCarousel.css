@@ -1,0 +1,10 @@
+@import "https://fonts.googleapis.com/css2?family=Song+Myung&display=swap";
+
+.my-title {
+  font-family: "Song Myung", serif;
+  font-size: 2rem;
+  margin: 2rem 0 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

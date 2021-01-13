@@ -1,0 +1,72 @@
+.tag-bar {
+  /* margin: 1.5rem 0 1.5rem 0; */
+  width: 100%;
+}
+
+.paperBg {
+  min-height: 40rem;
+}
+
+.ingre-box {
+  border: 2px solid black;
+  height: 10rem;
+  /* margin: 2rem 1rem 2rem 1rem; */
+}
+
+.chipBox {
+  min-height: 15rem;
+}
+
+.chipPaper {
+  padding: 1rem;
+  width: 100%;
+  min-height: 1rem;
+  position: static !important;
+}
+
+.chipPaperHeaderTitle {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  font-size: 3vmin;
+}
+
+.chipPaperHeaderSub {
+  font-size: 3vmin !important;
+}
+
+.btn-outline-dark {
+  color: #343a40 !important;
+  border-color: #343a40 !important;
+}
+
+.btn-outline-dark:hover {
+  color: #fff !important;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.submitIcon {
+  font-size: 1.2rem;
+}
+
+.submitIcon:hover {
+  color: skyblue;
+  cursor: pointer;
+}
+
+.chipInput {
+  height: 4rem !important;
+}
+
+.textcomment {
+  font-size: 2vmin;
+}
+
+.selectBox {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+Select::placeholder {
+  font-size: 1vmin !important;
+}

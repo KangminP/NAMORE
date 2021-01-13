@@ -1,0 +1,8 @@
+.myListTitle {
+  font-family: "Song Myung", serif;
+  font-size: 2vmax;
+  margin: 2rem 0 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

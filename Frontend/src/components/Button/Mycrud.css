@@ -1,0 +1,77 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300";
+
+.crudbox {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.crudbtn {
+  margin: 10px;
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* ff6766 */
+
+/* 
+========================
+      BUTTON ONE
+========================
+*/
+.crudbtn-one {
+  color: white;
+  transition: all 0.3s;
+  position: relative;
+}
+.nav-link-crud span {
+  transition: all 0.3s;
+}
+.nav-link-crud::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: rgba(31, 5, 5, 0.664);
+  border-bottom-color: rgba(31, 5, 5, 0.664);
+  transform: scale(0.1, 1);
+}
+
+/* border-top-color: rgba(255, 255, 255, 0.5);
+border-bottom-color: rgba(255, 255, 255, 0.5); */
+
+.nav-link-crud:hover span {
+  letter-spacing: 2px;
+}
+.nav-link-crud:hover::before {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+.nav-link-crud::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.3s;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.nav-link-crud:hover::after {
+  opacity: 0;
+  transform: scale(0.1, 1);
+}

@@ -1,0 +1,65 @@
+@import "https://fonts.googleapis.com/css2?family=Song+Myung&display=swap";
+
+.page-header-my {
+  min-height: 45vh;
+  max-height: 999px;
+  padding: 0;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+
+.page-header-my .content-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+  color: #ffffff;
+  padding: 0 15px;
+  width: 100%;
+  max-width: 80%;
+}
+/* .page-header-my > .container {
+  z-index: 2;
+  padding-top: 12vh;
+  padding-bottom: 40px;
+} */
+
+.page-header-my .page-header-image {
+  position: absolute;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.back-dark-my {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  width: 100%;
+}
+
+.profile-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  height: 100%;
+}
+
+.profile-title {
+  font-family: "Song Myung", serif;
+  font-size: 8vmin;
+  margin-bottom: 2%;
+}
+
+.profile-content {
+  font-family: "Song Myung", serif;
+  font-size: 6vmin;
+  margin-bottom: 2%;
+}

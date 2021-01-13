@@ -1,0 +1,81 @@
+@import "https://fonts.googleapis.com/css2?family=Song+Myung&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap";
+
+/* @media (min-aspect-ratio: 9/16) {
+  .back-ground-video {
+    width: 100%;
+    height: auto;
+
+    left: 50%;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+} */
+
+.video-box {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  /* margin: 3rem auto; */
+  position: relative;
+  /* filter: brightness(50%); */
+}
+
+.video-box::before {
+  position: absolute;
+  top: 15%;
+  right: 0;
+  bottom: 16%;
+  left: 0;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+video {
+  width: 100%;
+}
+
+.video-title {
+  font-family: "Amatic SC", cursive;
+  font-size: 2vw;
+
+  position: absolute;
+  top: 4%;
+  text-align: center;
+  width: 100%;
+}
+
+.video-border {
+  position: absolute;
+  top: 18%;
+  right: 2%;
+  bottom: 19%;
+  left: 2%;
+  content: "";
+
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.video-text {
+  font-family: "Song Myung", serif;
+
+  position: absolute;
+  top: 50%;
+  width: 100%;
+
+  transform: translateY(-50%);
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.video-text p {
+  text-align: center;
+  font-size: 5vw;
+  color: #ffffff;
+}

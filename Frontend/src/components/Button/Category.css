@@ -1,0 +1,98 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300";
+
+.catebox {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+/* @media (max-width: 375) {
+  .catebox a {
+    font-size: 1vmin !important;
+  }
+} */
+@media (min-width: 1px) {
+  .catebox a {
+    font-size: 5vmin !important;
+  }
+}
+@media (min-width: 416px) {
+  .catebox a {
+    font-size: 2.5vmin !important;
+  }
+}
+
+.catebtn {
+  margin: 10px;
+  line-height: 50px;
+  /* height: 50px; */
+  height: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* ff6766 */
+
+/* 
+========================
+      BUTTON ONE
+========================
+*/
+.catebtn-one {
+  color: white;
+  transition: all 0.3s;
+  position: relative;
+}
+.nav-link-cate span {
+  transition: all 0.3s;
+}
+.nav-link-cate::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: rgba(31, 5, 5, 0.664);
+  border-bottom-color: rgba(31, 5, 5, 0.664);
+  transform: scale(0.1, 1);
+}
+
+/* border-top-color: rgba(255, 255, 255, 0.5);
+border-bottom-color: rgba(255, 255, 255, 0.5); */
+
+.nav-link-cate:hover span {
+  letter-spacing: 2px;
+}
+.nav-link-cate:hover::before {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+.nav-link-cate::after {
+  content: "";
+  position: absolute;
+  /* position: relative; */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.3s;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.nav-link-cate:hover::after {
+  opacity: 0;
+  transform: scale(0.1, 1);
+}
+
+input::placeholder {
+  font-size: 2vmin;
+}

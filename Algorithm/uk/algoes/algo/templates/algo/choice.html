@@ -1,0 +1,11 @@
+{% for rec in Fifs %}
+<!-- <p>{{ rec.recipe_name}}</p> -->
+<p>{{ rec.pk}}</p>
+<p>{{ rec.recipe_name}}</p>
+<!-- <p>{{rec.order_img_content.all}}</p> -->
+{% for pk in rec.order_img_content.all %}
+<p>{{pk.order_content}}</p>
+{% endfor %}
+<!-- <p>{{ rec.recipe_image}}</p>
+<p>{{ rec.recipe_intro}}</p> -->
+{% endfor %}

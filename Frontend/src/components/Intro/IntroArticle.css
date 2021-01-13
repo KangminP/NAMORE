@@ -1,0 +1,52 @@
+@import "https://fonts.googleapis.com/css2?family=Song+Myung&display=swap";
+
+.article-title {
+  margin-bottom: 2rem;
+  font-family: "Amatic SC", cursive;
+  font-size: 1.8rem;
+
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: rgba(31, 5, 5, 0.664);
+  border-bottom-color: rgba(31, 5, 5, 0.664);
+
+  padding: 5px 2rem 5px 2rem;
+}
+
+.description {
+  margin: 0 auto;
+  font-family: "Hi Melody", cursive;
+  font-size: 1.2rem;
+}
+
+/* IntroCategory*/
+
+.rec-title {
+  margin-bottom: 2rem;
+  font-family: "Amatic SC", cursive;
+  font-size: 1.8rem;
+
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: rgba(31, 5, 5, 0.664);
+  border-bottom-color: rgba(31, 5, 5, 0.664);
+
+  padding: 5px 2rem 5px 2rem;
+}
+
+.rec-item {
+  /* font-family: "Song Myung", serif; */
+  font-family: "Hi Melody", cursive;
+}
+
+.nav-item .nav-link.active,
+.nav-item .nav-link.active:focus,
+.nav-item .nav-link.active:hover {
+  background-color: #37474f !important;
+  color: #ffffff;
+  box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.3);
+}

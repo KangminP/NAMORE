@@ -1,0 +1,161 @@
+@import "https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap";
+
+/* * {
+  box-sizing: border-box;
+} */
+
+/* body,
+html {
+  font-family: "Roboto Slab", serif;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+} */
+
+.recicard__container {
+  display: flex;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0 2rem 0;
+}
+
+/* .recicards {
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+} */
+
+/* .card__like {
+  width: 18px;
+}
+
+.card__clock {
+  width: 15px;
+  vertical-align: middle;
+  fill: #ad7d52;
+}
+.card__time {
+  font-size: 12px;
+  color: #ad7d52;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.card__clock-info {
+  float: right;
+} */
+
+.recicard__container {
+  height: 100%;
+}
+
+.recicard__img {
+  visibility: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 235px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.recicard__info-hover {
+  padding: 16px;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+}
+
+.recicard__img--hover {
+  transition: 0.2s all ease-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: absolute;
+  height: 235px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  top: 0;
+}
+
+.recicard {
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  background-color: #fff;
+  width: 90%;
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+}
+
+.recicard:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.1, 1.1);
+}
+
+.recicard__info {
+  z-index: 2;
+  height: 180px;
+  background-color: #fff;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 16px 24px 24px 24px;
+
+  height: 200px;
+}
+
+.recicard__rate {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #868686;
+}
+
+.recicard__title {
+  margin-top: 3px;
+  margin-bottom: 10px;
+  font-family: "Hi Melody", serif;
+  font-size: 1rem;
+}
+
+.recicard__by {
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+.recicard__author {
+  font-weight: 600;
+  text-decoration: none;
+  color: #ad7d52;
+}
+
+.recicard:hover .recicard__img--hover {
+  height: 100%;
+  opacity: 0.4;
+}
+
+.recicard:hover .recicard__info {
+  background-color: transparent;
+  position: relative;
+}
+
+.recicard:hover .recicard__info-hover {
+  opacity: 1;
+}
+
+.recicard__intro {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-size: 0.8rem;
+}
